@@ -1,0 +1,120 @@
+body {
+    margin: 0% 20%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10rem; 
+    width: 35rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1rem;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 1rem;
+}
+
+h6 {
+    color: #ff7d1b;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50px;
+}
+
+.sample {
+    border-radius: 30px;
+    width: 5rem;
+    height: 5rem;
+}
+
+.num {
+    font-size: 1.7rem;
+    margin: 0px;
+}
+
+#user-opt {
+    display: flex;
+    justify-content: space-evenly;
+    width: 8rem;
+}
+
+#preview {
+    display: flex;
+    flex-direction: column;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    width: 100rem;
+}
+
+#new-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9rem;
+}
+
+#buy {
+    display: flex;
+    justify-content: space-between;
+    width: 27rem;
+}
+
+#count {
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 10rem;
+    height: 1rem;
+}
+
+#add-cart {
+    background-color: #ff7d1b;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 15rem;
+    height: 1rem;
+}
