@@ -67,6 +67,18 @@ img {
     margin: 0px;
 }
 
+.count {
+    background-color: #d0d0d0;
+    border: none;
+    border-radius: 10px;
+    color: #ff7d1b;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #user-opt {
     display: flex;
     justify-content: space-evenly;
@@ -99,22 +111,23 @@ img {
     width: 27rem;
 }
 
-#count {
+#cart {
+    background-color: #ff7d1b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#buy-opt {
+    display: flex;
+    justify-content: space-between;
     background-color: #d0d0d0;
     border-radius: 10px;
     color: white;
-    text-align: center;
-    padding: 1rem 0rem;
     width: 10rem;
-    height: 1rem;
-}
-
-#add-cart {
-    background-color: #ff7d1b;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    padding: 1rem 0rem;
-    width: 15rem;
-    height: 1rem;
 }
